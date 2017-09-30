@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="go_solution.go_solution_magnet.MainActivity">
+    <ProgressBar
+        android:id="@+id/Bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="585dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
